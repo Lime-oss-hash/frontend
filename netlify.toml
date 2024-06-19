@@ -1,0 +1,12 @@
+[[redirects]]
+  from = "/api/*"
+  to = "http://119.29.225.160:5001/api/:splat"
+  status = 200
+  force = true
+  headers = { X-From-Netlify = "true" }
+
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

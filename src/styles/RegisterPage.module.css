@@ -1,0 +1,47 @@
+.cardBody {
+    min-width: 300px;
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.button:hover {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.register {
+    font-family: 'Roboto', sans-serif;
+}
+
+.RegisterPage.cardBody {
+    font-family: 'Roboto', sans-serif;
+}
+
+.registerPageContents {
+    font-family: 'Roboto', sans-serif;
+}
+
+.submit_button {
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    background-color: #198754;
+    border-color: #198754;
+    width: 250px;
+}
+
+.submit_button:hover {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.card-pattern-bg {
+    background-image: url('../styles/location.jpg'); /* 路径相对于public文件夹 */
+    /*background-size: cover; !* 根据需要调整背景图像大小 *!*/
+    /*background-repeat: no-repeat; !* 根据需要调整背景图像重复 *!*/
+    /*background-position: center; !* 根据需要调整背景图像位置 *!*/
+}
